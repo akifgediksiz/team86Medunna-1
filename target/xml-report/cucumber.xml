@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.027"/>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.252">
+    <testcase classname="US 05" name="_2" time="8.025">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user(patient) navigates to 'Medunna' homepage.........................passed
+Then user(patient) verifies the text written 'Make an Appoinment'...........undefined
+Then user(patient) will click 'Make an Appoinment' button...................skipped
+And user(patient) verifies that box is empty................................skipped
+And user(patient) writes at least one character filling First Name box......skipped
+]]></failure>
+    </testcase>
+</testsuite>
