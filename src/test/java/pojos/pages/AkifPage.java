@@ -1,4 +1,4 @@
-package pages;
+package pojos.pages;
 
 public class AkifPage {
 }
